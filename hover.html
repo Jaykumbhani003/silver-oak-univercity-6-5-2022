@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title> Hover Element </title>
+		<style type="text/css">
+			#MainUL li ul li{display:none;}
+			#MainUL li:hover ul li{display:block;}
+			#MainUL li:hover ul li ul li{display:none;}
+			#MainUL li ul li:hover ul li{display:block;}
+			#MainUL li ul li:hover ul li ul li{display:none;}
+			#MainUL li ul li ul li:hover ul li{display:block;}
+		</style>
+		
+	</head>
+	<body>
+		
+		<ul id="MainUL">
+			<li>ENGLISH
+				<ul>
+					<li>
+						<ul>
+							<li>unit 1</li>
+							<li>unit 2</li>
+								<ul>
+									<li>nirav</li>
+									<li>harsh</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>manan</li>
+					<li>man</li>
+					<li>LISTING</li>
+				</ul>
+			</li>
+			<li>MATHS</li>
+			<li>SCIENCE
+				<ul>
+					<li>nirav</li>
+					<li>jenish</li>
+				</ul>
+			</li>
+			<li>JAY</li>
+			<li>KRUPESH
+				<ul>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+				</ul>
+			</li>
+		</ul>
+		
+	</body>
+</html>
